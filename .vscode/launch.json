@@ -5,6 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         
+        const html = require('./index.html');  // This is wrong
+
         {
             "name": "Attach to Edge",
             "port": 9222,
