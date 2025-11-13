@@ -272,3 +272,36 @@ body {
         max-width: 90vw;
     }
 }
+/* User navigation & shopping cart icon */
+.user-nav {
+    margin-right: 30px; 
+}
+
+ 
+.user-nav a {
+    font-size: 32pt;          
+    text-decoration: none;     
+    color: #ffffff;            
+    display: inline-flex;      
+    align-items: center;
+    transition: color 0.3s;   
+}
+
+
+.user-nav a .material-symbols-outlined,
+.user-nav a svg {
+    color: inherit;
+    width: 1em;
+    height: 1em;
+}
+
+
+.user-nav a:hover {
+    color: #e50914; 
+
+
+@media screen and (max-width:480px) {
+    .user-nav {
+        margin-right: 0px; /* bỏ margin để căn giữa header */
+    }
+}
