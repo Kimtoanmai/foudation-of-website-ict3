@@ -8,7 +8,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     $message = $_POST['message'];
     // insert the data into contact_us table
     // SQL query
-    $query = "INSERT INTOcontact_us orders(customer_name,email,
+    $query = "INSERT INTOcontact_us orders(customer_name,email,product_name,quantity,price,order_date)
+    value
     ";
     $statement = $connection -> prepare($query);
     $statement -> bind_param("ssss",$name,$email,$subject,$message);
