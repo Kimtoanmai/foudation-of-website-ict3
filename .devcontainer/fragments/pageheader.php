@@ -1,67 +1,12 @@
-<!DOCTYPE html>
-<html lang= "en">
-
-<?php include "fragments/head.php"; ?>
-
-<body>
-    <?php include "fragments/pageheader.php"; ?>
-    <!-- carousel -->
-    <div class="main-carousel" data-flickity='{ "autoPlay": true, "cellAlign": "left", "contain": true }'>
-        <div class="slide">
-            <h2>Black Friday Sale</h2>
-            <a href="#" class="slide-button">Shop Black Friday</a>
-        </div>
-        <div class="slide">i want to buy a playstation 5 </div>
-        <div class="slide">can someone buy for me pls ?</div>
-        <div class="slide">i think i have to hard work to buy it </div>
-    </div>
-    <main class="content">
-        <div class="card">
-            <img src="womensp.jpg" alt="a woman sit in meditateion pose">
-            <div class="card-content">
-                <h3>Womens</h3>
-                <a href="#" class="card-button">Shop Womens</a>
-            </div>
-        </div>
-         <div class="card">
-            <img src="mansp.jpg" alt="a man tying his shoes">
-            <div class="card-content">
-                <h3>Mens</h3>
-                <a href="#" class="card-button">Shop Mens</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="kidssp.jpg" alt="a child running in a baseball game">
-            <div class="card-content">
-                <h3>Kids</h3>
-                <a href="#" class="card-button">Shop Kids</a>
-            </div>
-        </div>
-        <div class="banner">
-            <h2>Black Friday</h2>
-            <a class="slide-button" href="#">Shop Sale</a>
-        </div>
-        <div class="card">
-            <img src="woman2.jpg" alt="a woman doing push ups">
-            <div class="card-content">
-                <h3>Womens</h3>
-                <a href="#" class="card-button">Shop Womens</a>
-            </div>
-        </div>
-         <div class="card">
-            <img src="man2 (1).jpg" alt="a man playing football">
-
-            <div class="card-content">
-                <h3>Mens</h3>
-                <a href="#" class="card-button">Shop Mens</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="kids2.jpg" alt="child playing football">
-            <div class="card-content">
-                <h3>Kids</h3>
-                <a href="#" class="card-button">Shop Kids</a>
-            </div>
-        </div>
-    </main>
-</body>
+<head>
+    <title>Oi Doi Oi website</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,shopping_cart,storefront" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="menu.js"></script>
+</head>
