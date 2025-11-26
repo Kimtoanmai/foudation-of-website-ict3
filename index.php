@@ -3,7 +3,7 @@
 
 <head>
     <title>Oi Doi OI website</title>
-    <link rel="icon" href="logoT.jpg" type="image/x-icon">
+    <link rel="icon" href="/images/logoT .jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,shopping_cart,storefront" />
@@ -20,7 +20,7 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <a href="/">
-            <img class="logo" src="logoT .jpg" alt="oi doi oi logo">
+            <img class="logo" src="/images/logoT .jpg" alt="oi doi oi logo">
         </a>
         <form class="search" method="get" action="/search.php">
             <input type="search" placeholder="search for a product">
@@ -66,21 +66,21 @@
     </div>
     <main class="content">
         <div class="card">
-            <img src="womensp.jpg" alt="a woman sit in meditateion pose">
+            <img src="/images/womensp.jpg" alt="a woman sit in meditateion pose">
             <div class="card-content">
                 <h3>Womens</h3>
                 <a href="#" class="card-button">Shop Womens</a>
             </div>
         </div>
          <div class="card">
-            <img src="mansp.jpg" alt="a man tying his shoes">
+            <img src="/images/mansp.jpg" alt="a man tying his shoes">
             <div class="card-content">
                 <h3>Mens</h3>
                 <a href="#" class="card-button">Shop Mens</a>
             </div>
         </div>
         <div class="card">
-            <img src="kidssp.jpg" alt="a child running in a baseball game">
+            <img src="/images/kidssp.jpg" alt="a child running in a baseball game">
             <div class="card-content">
                 <h3>Kids</h3>
                 <a href="#" class="card-button">Shop Kids</a>
@@ -91,14 +91,14 @@
             <a class="slide-button" href="#">Shop Sale</a>
         </div>
         <div class="card">
-            <img src="woman2.jpg" alt="a woman doing push ups">
+            <img src="/images/woman2.jpg" alt="a woman doing push ups">
             <div class="card-content">
                 <h3>Womens</h3>
                 <a href="#" class="card-button">Shop Womens</a>
             </div>
         </div>
          <div class="card">
-            <img src="man2 (1).jpg" alt="a man playing football">
+            <img src="/images/man2 (1).jpg (1).jpg" alt="a man playing football">
 
             <div class="card-content">
                 <h3>Mens</h3>
@@ -106,7 +106,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="kids2.jpg" alt="child playing football">
+            <img src="/images/kids2.jpg" alt="child playing football">
             <div class="card-content">
                 <h3>Kids</h3>
                 <a href="#" class="card-button">Shop Kids</a>
