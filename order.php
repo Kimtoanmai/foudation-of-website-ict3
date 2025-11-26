@@ -23,8 +23,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="styles.css">
 
-<?php include "fragments/head.php"; ?>
 
 <body>
     <?php include "fragments/pageheader.php"; ?>
