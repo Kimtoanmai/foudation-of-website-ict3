@@ -21,7 +21,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "fragments/footer.php"; ?>
+<?php include "fragments/head.php"; ?>
 
 <body>
     <?php include "fragments/pageheader.php"; ?>

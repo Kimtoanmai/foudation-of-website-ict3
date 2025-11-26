@@ -1,12 +1,38 @@
-<head>
-    <title>Oi Doi Oi website</title>
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,shopping_cart,storefront" />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="menu.js"></script>
-</head>
+<header class="main-header">
+        <button type="button" class="nav-button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="/">
+            <img class="logo" src="images/logoT .jpg" alt="progear hub logo">
+        </a>
+        <form class="search" method="get" action="/search.php">
+            <input type="search" placeholder="search for a product">
+            <button>
+                <img src="images/search_40dp_4A3D28_FILL0_wght400_GRAD0_opsz40.png" alt="search icon">
+            </button>
+        </form>
+        <nav class="user-nav">
+            <a href="stores.html">
+                <span class="material-symbols-outlined">
+                    storefront
+                </span>
+            </a>
+            <a href="account.html">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+            </a>
+            <a href="order.php">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </a>
+        </nav>
+        <nav class="shop-nav">
+            <a href="womens.html">Womens</a>
+            <a href="mens.html">Mens</a>
+            <a href="kids.html">Kids</a>
+            <a href="brands.html">Brands</a>
+            <a href="clearance.html">Clearance</a>
+        </nav>
+    </header>
