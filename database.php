@@ -2,9 +2,9 @@
 // connect to the database
 $connection = mysqli_connect(
     "db",
-    "oidoioi",
+    "progearhub",
     "password",
-    "oisoioi"
+    "ProGearHub"
 );
 if( !$connection ) {
     echo "database connection failed";
