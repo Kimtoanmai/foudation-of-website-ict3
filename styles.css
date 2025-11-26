@@ -83,19 +83,19 @@ body {
 }
 
 .slide:nth-child(1) {
-    background-image: url("il_fullxfull.3144973378_5ypt.jpg");
+    background-image: url("/images/il_fullxfull.3144973378_5ypt.jpg");
 }
 
 .slide:nth-child(2) {
-    background-image: url("Screenshot_17-10-2025_211932_gemini.google.com.jpeg");
+    background-image: url("/images/Screenshot_17-10-2025_211932_gemini.google.com.jpeg");
 }
 
 .slide:nth-child(3) {
-    background-image: url("il_fullxfull.3144973378_7def.jpg");
+    background-image: url("/images/il_fullxfull.3144973378_5ypt.jpg");
 }
 
 .slide:nth-child(4) {
-    background-image: url("il_fullxfull.3144973378_8ghi.jpg");
+    background-image: url("/images/il_fullxfull.3144973378_5ypt.jpg");
 }
 
 .slide h2 {
